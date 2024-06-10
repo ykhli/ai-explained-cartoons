@@ -1,0 +1,9 @@
+export const Images = ({ src }) => {
+  const indices = Array.from({ length: 20 }, (_, i) => i + 1);
+  const imageList = indices.map((index) => (
+    <img key={index} src={`${src}/${index}.png`} />
+  ));
+  return imageList;
+};
+
+;

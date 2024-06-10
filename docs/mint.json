@@ -1,24 +1,18 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "🐱",
+  "name": "🎨 AI Explained",
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#0E0E0E",
+    "primary": "#e8ba94",
     "light": "#FAFAFA",
     "dark": "#0E0E0E"
   },
   "feedback": { "thumbsRating": true },
-  "topbarLinks": [
-    {
-      "name": "GitHub",
-      "url": "https://github.com/ykhli/AI-RPi-detection"
-    }
-  ],
   "anchors": [
     {
-      "name": "GitHub",
-      "icon": "github",
-      "url": "https://github.com/ykhli/AI-RPi-detection"
+      "name": "X",
+      "icon": "twitter",
+      "url": "https://x.com/stuffyokodraws"
     },
     {
       "name": "Community",
@@ -28,12 +22,12 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
-      "pages": ["introduction", "quickstart", "dev-environment", "contributors"]
+      "group": "Cartoons",
+      "pages": ["introduction", "1-attention-explained", "contributors"]
     }
   ],
   "footerSocials": {
     "x": "https://twitter.com/stuffyokodraws",
-    "github": "https://github.com/ykhli/AI-RPi-detection"
+    "github": "https://github.com/ykhli"
   }
 }
