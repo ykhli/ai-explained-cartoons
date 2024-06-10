@@ -7,12 +7,10 @@ description: "Attention mechanism is so central to all generative models today. 
 <div className="sm:grid-cols-4" style={{ display: "list", gap: "4px" }}>
   {Array.from({ length: 20 }, (_, i) => i + 1).map((idx) =>
     idx !== 12 ? (
-      <Frame>
-        <img
-          style={{ height: 500 }}
-          src={`https://fly.storage.tigris.dev/ai-cartoons/ai-explained-1-attention/${idx}.png`}
-        />
-      </Frame>
+      <img
+        style={{ height: 500 }}
+        src={`https://fly.storage.tigris.dev/ai-cartoons/ai-explained-1-attention/${idx}.png`}
+      />
     ) : (
       ""
     )
