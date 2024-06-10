@@ -1,0 +1,39 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "🐱",
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#0E0E0E",
+    "light": "#FAFAFA",
+    "dark": "#0E0E0E"
+  },
+  "feedback": { "thumbsRating": true },
+  "topbarLinks": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/ykhli/AI-RPi-detection"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/ykhli/AI-RPi-detection"
+    },
+    {
+      "name": "Community",
+      "icon": "discord",
+      "url": "https://discord.gg/ymEUwGeMre"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": ["introduction", "quickstart", "dev-environment", "contributors"]
+    }
+  ],
+  "footerSocials": {
+    "x": "https://twitter.com/stuffyokodraws",
+    "github": "https://github.com/ykhli/AI-RPi-detection"
+  }
+}
