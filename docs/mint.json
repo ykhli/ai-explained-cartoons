@@ -7,6 +7,10 @@
     "light": "#FAFAFA",
     "dark": "#0E0E0E"
   },
+  "topAnchor": {
+    "name": "Home",
+    "icon": "building"
+  },
   "feedback": { "suggestEdit": true },
   "anchors": [
     {

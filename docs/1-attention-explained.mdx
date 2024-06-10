@@ -4,89 +4,17 @@ icon: "rocket-launch"
 description: "Attention mechanism is so central to all generative models today. Let's talk about how it works!"
 ---
 
-<Frame>
-  <img
-    style={{ height: 400 }}
-    src="https://fly.storage.tigris.dev/ai-cartoons/ai-explained-1-attention/1.png"
-  />
-</Frame>
-
-<img
-  style={{ height: 400 }}
-  src="https://fly.storage.tigris.dev/ai-cartoons/ai-explained-1-attention/2.png"
-/>
-
-<img
-  style={{ height: 400 }}
-  src="https://fly.storage.tigris.dev/ai-cartoons/ai-explained-1-attention/3.png"
-/>
-
-<img
-  style={{ height: 400 }}
-  src="https://fly.storage.tigris.dev/ai-cartoons/ai-explained-1-attention/4.png"
-/>
-
-<img
-  style={{ height: 400 }}
-  src="https://fly.storage.tigris.dev/ai-cartoons/ai-explained-1-attention/5.png"
-/>
-
-<img
-  style={{ height: 400 }}
-  src="https://fly.storage.tigris.dev/ai-cartoons/ai-explained-1-attention/6.png"
-/>
-
-<img
-  style={{ height: 400 }}
-  src="https://fly.storage.tigris.dev/ai-cartoons/ai-explained-1-attention/7.png"
-/>
-
-<img
-  style={{ height: 400 }}
-  src="https://fly.storage.tigris.dev/ai-cartoons/ai-explained-1-attention/8.png"
-/>
-<img
-  style={{ height: 400 }}
-  src="https://fly.storage.tigris.dev/ai-cartoons/ai-explained-1-attention/9.png"
-/>
-<img
-  style={{ height: 400 }}
-  src="https://fly.storage.tigris.dev/ai-cartoons/ai-explained-1-attention/10.png"
-/>
-<img
-  style={{ height: 400 }}
-  src="https://fly.storage.tigris.dev/ai-cartoons/ai-explained-1-attention/11.png"
-/>
-
-<img
-  style={{ height: 400 }}
-  src="https://fly.storage.tigris.dev/ai-cartoons/ai-explained-1-attention/13.png"
-/>
-<img
-  style={{ height: 400 }}
-  src="https://fly.storage.tigris.dev/ai-cartoons/ai-explained-1-attention/14.png"
-/>
-<img
-  style={{ height: 400 }}
-  src="https://fly.storage.tigris.dev/ai-cartoons/ai-explained-1-attention/15.png"
-/>
-<img
-  style={{ height: 400 }}
-  src="https://fly.storage.tigris.dev/ai-cartoons/ai-explained-1-attention/16.png"
-/>
-<img
-  style={{ height: 400 }}
-  src="https://fly.storage.tigris.dev/ai-cartoons/ai-explained-1-attention/17.png"
-/>
-<img
-  style={{ height: 400 }}
-  src="https://fly.storage.tigris.dev/ai-cartoons/ai-explained-1-attention/18.png"
-/>
-<img
-  style={{ height: 400 }}
-  src="https://fly.storage.tigris.dev/ai-cartoons/ai-explained-1-attention/19.png"
-/>
-<img
-  style={{ height: 400 }}
-  src="https://fly.storage.tigris.dev/ai-cartoons/ai-explained-1-attention/20.png"
-/>
+<div className="sm:grid-cols-4" style={{ display: "list", gap: "4px" }}>
+  {Array.from({ length: 20 }, (_, i) => i + 1).map((idx) =>
+    idx !== 12 ? (
+      <Frame>
+        <img
+          style={{ height: 500 }}
+          src={`https://fly.storage.tigris.dev/ai-cartoons/ai-explained-1-attention/${idx}.png`}
+        />
+      </Frame>
+    ) : (
+      ""
+    )
+  )}
+</div>
