@@ -1,4 +1,4 @@
-# AI Raspberry Pi Cat Detection Documentation
+# AI Explained Cartoons
 
 Powered by [Mintlify](https://mintlify.com)
 
@@ -18,4 +18,4 @@ mintlify dev
 
 ### Publishing Changes
 
-Install our GitHub App to auto-propagate changes from your repo to your deployment. Changes will be deployed to production automatically after pushing to the default branch. Find the link to install to your dashboard. 
+Install our GitHub App to auto-propagate changes from your repo to your deployment. Changes will be deployed to production automatically after pushing to the default branch. Find the link to install to your dashboard.
